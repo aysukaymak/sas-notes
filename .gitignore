@@ -1,0 +1,65 @@
+# Exclude general directories that contain files that do not require versioning
+**/Backups/
+**/data/
+**/demo/
+**/customer/
+**/docs/
+**/Documents/
+**/example/
+**/examples/
+**/htdocs/
+**/javadoc/
+**/lib/
+**/libs/
+**/log/
+**/logs/
+#**/Logs/
+!**/Logs/Configure/
+**/*.log
+**/Repository/
+**/Repositories/
+**/Scripts/
+**/temp/
+**/Temp/
+**/tmp/
+**/Utilities/script_templates/
+**/work/
+
+#Exclude Development Tester files
+**/DeploymentTesterServer/
+**/dtest/
+
+#Exclude Metadata Server files
+**/MetadataRepositories/
+**/MetadataServer/Journal/
+**/SASMeta/MetadataServer/rposmgr/
+
+#Exclude SAS Environment Manager files
+**/activemq-data/
+**/bundles/
+**/hq-engine/
+**/wrapper/
+
+#Exclude gemfire and activemq files
+**/admin/
+**/gemfire/instances/
+**/gemfire/templates/
+**/dtd/
+
+#Exclude web files
+**/cacheroot/
+**/ROOT/
+**/Staging/
+**/*.war/
+**/Web/Utilities/
+**/Web/WebAppServer/SASServer1_1/conf/Catalina/localhost/
+
+#Exclude files by type
+*.bin
+*.class
+*.dll
+*.gif
+*.html
+*.jar
+*.jpg
+*.so
