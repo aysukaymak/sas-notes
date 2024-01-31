@@ -65,4 +65,5 @@
 *.so
 
 #Exclude the cource files
-*/PGV2/
+*/PG1V2/
+*/PG2V2/
