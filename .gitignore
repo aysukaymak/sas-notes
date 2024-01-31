@@ -63,3 +63,6 @@
 *.jar
 *.jpg
 *.so
+
+#Exclude the cource files
+*/PGV2/
