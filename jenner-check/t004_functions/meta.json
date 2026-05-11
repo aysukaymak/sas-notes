@@ -1,0 +1,6 @@
+{
+  "bundle": "t004_functions",
+  "source_file": "sas-programming-1-course-notes/cn-17-functions.sas",
+  "tier": "real_data",
+  "notes": "Two short worked examples from the SAS functions note: MEAN across two MPG columns with a 4.1 format, and UPCASE applied to an existing character column. Added PROC PRINT and PROC FREQ to surface the transformed columns; no edits to the data step logic itself."
+}

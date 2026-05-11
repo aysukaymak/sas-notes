@@ -1,0 +1,45 @@
+
+PROC PRINT: sashelp.cars
+-------------------------------------------------------------------------------
+
+  Obs   TYPE       MAKE           MODEL   MSRP
+-----  -----  ---------  --------------  -----
+    1  Sedan  Acura      RSX Type S 2dr  23820
+    2  Sedan  Acura      TSX 4dr         26990
+    3  Sedan  Acura      TL 4dr          33195
+    4  Sedan  BMW        325Ci 2dr       30795
+    5  Sedan  Chevrolet  Cavalier 4dr    14610
+    6  Sedan  Ford       Focus LX 4dr    13005
+    7  Sedan  Honda      Accord LX 4dr   20140
+    8  Sedan  Honda      Civic DX 4dr    13760
+    9  Sedan  Toyota     Camry LE 4dr    19560
+   10  Sedan  Toyota     Corolla CE 4dr  14085
+
+-------------------------------------------------------------------------------
+
+                                                  The MEANS Procedure
+
+ Variable                                   N             Mean          Std Dev          Minimum          Maximum
+ -------------------------------------------------------------------------------------------------------------------
+ Manufacturer suggested retail price       10     20996.0000000     7425.8747334     13005.0000000     33195.0000000
+ Highway miles per gallon                  10        33.5000000        4.1965594        28.0000000        40.0000000
+ -------------------------------------------------------------------------------------------------------------------
+
+                                                   The FREQ Procedure
+
+                                              Cumulative    Cumulative
+Region of origin    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------------------
+Asia                        7     70.00            7        70.00
+Europe                      1     10.00            8        80.00
+USA                         2     20.00           10       100.00
+
+                                          Cumulative    Cumulative
+Manufacturer    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------------
+Acura                   3     30.00            3        30.00
+BMW                     1     10.00            4        40.00
+Chevrolet               1     10.00            5        50.00
+Ford                    1     10.00            6        60.00
+Honda                   2     20.00            8        80.00
+Toyota                  2     20.00           10       100.00

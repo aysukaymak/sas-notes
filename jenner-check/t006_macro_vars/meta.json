@@ -1,0 +1,6 @@
+{
+  "bundle": "t006_macro_vars",
+  "source_file": "sas-programming-1-course-notes/cn-11-sas-macro-variables.sas",
+  "tier": "real_data",
+  "notes": "%LET defines a macro variable used in three subsequent procs via &cartype substitution — the same pattern the note teaches. Switched the example value from 'Wagon' to 'Sedan' because sashelp.cars on the API has Sedan rows but no Wagons; everything else (PROC PRINT / MEANS / FREQ pattern, the WHERE references, the macro reference) is unchanged."
+}

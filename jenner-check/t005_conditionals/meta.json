@@ -1,0 +1,6 @@
+{
+  "bundle": "t005_conditionals",
+  "source_file": "sas-programming-1-course-notes/cn-18-conditionals.sas",
+  "tier": "real_data",
+  "notes": "Two exercises from the conditionals note: IF-THEN/ELSE with a LENGTH statement to prevent truncation of the longer 'Luxury' string, and IF-THEN/DO with explicit OUTPUT to multiple tables. Added PROC PRINT/FREQ to show the resulting splits."
+}

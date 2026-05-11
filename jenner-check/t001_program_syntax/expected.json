@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-05-11T16:00:59Z",
+  "_captured_run_id": "r_019e17c5076e7112855d42ffe6939e38",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Read 19 rows from sashelp.class",
+    "Wrote myclass (19 rows",
+    "Wrote under13 (7 rows"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

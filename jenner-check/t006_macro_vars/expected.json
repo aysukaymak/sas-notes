@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-05-11T16:04:47Z",
+  "_captured_run_id": "r_019e17c8692f76419174549420dbfb3e",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "PROC PRINT completed: 10 observations printed, 4 variables",
+    "PROC MEANS statement used.",
+    "ODS plot written: freq_origin.spec.json",
+    "PROC FREQ statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

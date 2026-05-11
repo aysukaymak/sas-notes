@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-05-11T16:03:01Z",
+  "_captured_run_id": "r_019e17c6be8b7b739aed89f1de74a472",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Wrote cars_new (12 rows, 5 columns).",
+    "Wrote cars_upper (12 rows, 3 columns).",
+    "ODS plot written: freq_type.spec.json"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

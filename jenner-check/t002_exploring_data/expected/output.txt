@@ -1,0 +1,156 @@
+
+PROC PRINT: sashelp.class
+-------------------------------------------------------------------------------
+
+  Obs     NAME  SEX  AGE  HEIGHT  WEIGHT
+-----  -------  ---  ---  ------  ------
+    1  Amir     M     13    61.2      95
+    2  Bethany  F     14    63.8     105
+    3  Carlos   M     12    58.5      88
+    4  Diana    F     11      53    62.5
+    5  Ethan    M     15      68     130
+    6  Fiona    F     13    60.5      92
+    7  George   M     14    65.5     115
+    8  Hannah   F     12      57      78
+    9  Ivan     M     11    55.8      72
+   10  Julia    F     15      64     108
+   11  Kevin    M     16    70.5     145
+   12  Lily     F     14      62    97.5
+   13  Marco    M     12    59.3      85
+   14  Nadia    F     13    61.8      93
+   15  Oscar    M     15    67.2     128
+   16  Priya    F     12    55.5      75
+   17  Quinn    M     13      63     100
+   18  Rosa     F     11    52.5      58
+   19  Samuel   M     14      66     120
+
+-------------------------------------------------------------------------------
+
+PROC PRINT: sashelp.class
+-------------------------------------------------------------------------------
+
+  Obs     NAME  SEX  AGE  HEIGHT  WEIGHT
+-----  -------  ---  ---  ------  ------
+    1  Amir     M     13    61.2      95
+    2  Bethany  F     14    63.8     105
+    3  Carlos   M     12    58.5      88
+    4  Diana    F     11      53    62.5
+    5  Ethan    M     15      68     130
+    6  Fiona    F     13    60.5      92
+    7  George   M     14    65.5     115
+    8  Hannah   F     12      57      78
+    9  Ivan     M     11    55.8      72
+   10  Julia    F     15      64     108
+
+... 9 more observations (showing 10 of 19)
+
+-------------------------------------------------------------------------------
+
+PROC PRINT: sashelp.cars
+-------------------------------------------------------------------------------
+
+  Obs       MAKE           MODEL   TYPE   MSRP
+-----  ---------  --------------  -----  -----
+    1  Acura      MDX             SUV    36945
+    2  Acura      RSX Type S 2dr  Sedan  23820
+    3  Acura      TSX 4dr         Sedan  26990
+    4  Acura      TL 4dr          Sedan  33195
+    5  BMW        325Ci 2dr       Sedan  30795
+    6  BMW        X5 4.4i         SUV    52195
+    7  Chevrolet  Cavalier 4dr    Sedan  14610
+    8  Ford       Focus LX 4dr    Sedan  13005
+    9  Honda      Accord LX 4dr   Sedan  20140
+   10  Honda      Civic DX 4dr    Sedan  13760
+
+... 2 more observations (showing 10 of 12)
+
+-------------------------------------------------------------------------------
+
+                                                  The MEANS Procedure
+
+ Variable                        N           Mean        Std Dev        Minimum        Maximum
+ ------------------------------------------------------------------------------------------------
+ Engine size (liters)           12       2.5416667      0.7879298       1.7000000       4.4000000
+ Maximum horsepower             12     189.6666667     65.9191424     115.0000000     325.0000000
+ City miles per gallon          12      23.8333333      5.1669110      16.0000000      32.0000000
+ Highway miles per gallon       12      31.6666667      5.7260701      22.0000000      40.0000000
+ ------------------------------------------------------------------------------------------------
+
+                                                The UNIVARIATE Procedure
+                                   Variable:  MPG_Highway  (Highway miles per gallon)
+
+                                                        Moments
+
+N                                 12    Sum Weights                       12
+Mean                       31.666667    Sum Observations          380.000000
+Std Deviation               5.726070    Variance                   32.787879
+Skewness                   -0.325908    Kurtosis                   -0.767393
+Uncorrected SS          12394.000000    Corrected SS              360.666667
+Coeff Variation            18.082327    Std Error Mean              1.652974
+
+         Basic Statistical Measures          
+
+Location             Variability             
+--------  ---------  -------------  ---------
+Mean      31.666667  Std Deviation   5.726070
+Median    32.000000  Variance       32.787879
+Mode      29.000000  Range          18.000000
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      22.000000
+1%          22.000000
+5%          22.000000
+10%         22.300000
+25% Q1      28.250000
+50% Median  32.000000
+75% Q3      36.750000
+90%         39.400000
+95%         40.000000
+99%         40.000000
+100% Max    40.000000
+
+          Extreme Observations          
+
+Lowest               Highest            
+--------  ---------  --------  ---------
+Value     22.000000  Value     34.000000
+Value     23.000000  Value     36.000000
+Value     28.000000  Value     37.000000
+Value     29.000000  Value     38.000000
+Value     29.000000  Value     40.000000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         19.157388791  0.000000001
+Sign                        6  0.000488281
+Signed Rank                78  0.002217859
+
+                                                   The FREQ Procedure
+
+                                              Cumulative    Cumulative
+Region of origin    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------------------
+Asia                        8     66.67            8        66.67
+Europe                      2     16.67           10        83.33
+USA                         2     16.67           12       100.00
+
+                                          Cumulative    Cumulative
+Vehicle type    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------------
+SUV                     2     16.67            2        16.67
+Sedan                  10     83.33           12       100.00
+
+                                              Cumulative    Cumulative
+Drive train type    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------------------
+All                         2     16.67            2        16.67
+Front                       9     75.00           11        91.67
+Rear                        1      8.33           12       100.00
