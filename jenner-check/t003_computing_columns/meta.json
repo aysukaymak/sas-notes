@@ -1,0 +1,6 @@
+{
+  "bundle": "t003_computing_columns",
+  "source_file": "sas-programming-1-course-notes/cn-16-computing-new-columns.sas",
+  "tier": "real_data",
+  "notes": "First worked example from the 'computing new columns' note — calculate Profit as MSRP - Invoice for non-US cars, attach a Source label, format Profit as dollar10., and KEEP only the relevant columns. Added PROC PRINT (obs=15) and PROC MEANS at the end so the output table is visible without changing what the DATA step does."
+}

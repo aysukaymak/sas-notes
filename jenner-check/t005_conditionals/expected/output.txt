@@ -1,0 +1,56 @@
+
+PROC PRINT: cars2
+-------------------------------------------------------------------------------
+
+  Obs       MAKE           MODEL   MSRP  CARTYPE
+-----  ---------  --------------  -----  -------
+    1  Acura      MDX             36945  Basic
+    2  Acura      RSX Type S 2dr  23820  Basic
+    3  Acura      TSX 4dr         26990  Basic
+    4  Acura      TL 4dr          33195  Basic
+    5  BMW        325Ci 2dr       30795  Basic
+    6  BMW        X5 4.4i         52195  Basic
+    7  Chevrolet  Cavalier 4dr    14610  Basic
+    8  Ford       Focus LX 4dr    13005  Basic
+    9  Honda      Accord LX 4dr   20140  Basic
+   10  Honda      Civic DX 4dr    13760  Basic
+   11  Toyota     Camry LE 4dr    19560  Basic
+   12  Toyota     Corolla CE 4dr  14085  Basic
+
+-------------------------------------------------------------------------------
+
+                                                   The FREQ Procedure
+
+                                     Cumulative    Cumulative
+CARTYPE    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------
+Basic             12    100.00           12       100.00
+
+PROC PRINT: under40
+-------------------------------------------------------------------------------
+
+  Obs       MAKE           MODEL   MSRP  COST_GROUP
+-----  ---------  --------------  -----  ----------
+    1  Acura      MDX             36945           2
+    2  Acura      RSX Type S 2dr  23820           2
+    3  Acura      TSX 4dr         26990           2
+    4  Acura      TL 4dr          33195           2
+    5  BMW        325Ci 2dr       30795           2
+    6  Chevrolet  Cavalier 4dr    14610           1
+    7  Ford       Focus LX 4dr    13005           1
+    8  Honda      Accord LX 4dr   20140           2
+    9  Honda      Civic DX 4dr    13760           1
+   10  Toyota     Camry LE 4dr    19560           1
+   11  Toyota     Corolla CE 4dr  14085           1
+
+-------------------------------------------------------------------------------
+
+PROC PRINT: over40
+-------------------------------------------------------------------------------
+
+  Obs  MAKE    MODEL   MSRP  COST_GROUP
+-----  ----  -------  -----  ----------
+    1  BMW   X5 4.4i  52195           3
+
+-------------------------------------------------------------------------------
+

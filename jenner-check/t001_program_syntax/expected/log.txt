@@ -1,0 +1,36 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA myclass
+
+
+NOTE: Read 19 rows from sashelp.class.
+NOTE: Wrote myclass (19 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=myclass
+
+NOTE: PROC PRINT completed: 19 observations printed, 6 variables
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
+NOTE: DATA myclass1
+
+
+NOTE: Read 19 rows from sashelp.class.
+NOTE: Wrote myclass1 (19 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=myclass1
+
+NOTE: PROC PRINT completed: 19 observations printed, 5 variables
+NOTE: DATA under13
+
+
+NOTE: Read 19 rows from sashelp.class.
+NOTE: Wrote under13 (7 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds

@@ -1,0 +1,6 @@
+{
+  "bundle": "t001_program_syntax",
+  "source_file": "sas-programming-1-course-notes/1-program-syntax.sas",
+  "tier": "real_data",
+  "notes": "Excerpt from the SAS Programming 1 course notes covering basic DATA + PROC syntax. Uses sashelp.class directly; only edit was stripping commentary blocks and adjusting a *comment;-style comment that referenced features the rest of the script doesn't exercise."
+}

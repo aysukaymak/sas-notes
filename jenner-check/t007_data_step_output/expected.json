@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-05-11T16:05:53Z",
+  "_captured_run_id": "r_019e17c97d487810b26ae263060d2800",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Wrote forecast_y3 (12 rows, 5 columns).",
+    "Wrote forecast_all (36 rows, 5 columns).",
+    "PROC PRINT completed: 8 observations printed, 5 variables",
+    "PROC PRINT completed: 12 observations printed, 5 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

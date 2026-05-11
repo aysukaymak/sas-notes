@@ -1,0 +1,32 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA cars2
+
+
+NOTE: Read 12 rows from sashelp.cars.
+NOTE: Wrote cars2 (12 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=cars2
+
+NOTE: PROC PRINT completed: 12 observations printed, 4 variables
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_cartype.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: DATA under40
+
+
+NOTE: Read 12 rows from sashelp.cars.
+NOTE: Wrote under40 (12 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=under40
+
+NOTE: PROC PRINT completed: 11 observations printed, 4 variables
+NOTE: PROC PRINT data=over40
+
+NOTE: PROC PRINT completed: 1 observations printed, 4 variables

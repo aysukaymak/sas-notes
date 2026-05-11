@@ -1,0 +1,6 @@
+{
+  "bundle": "t007_data_step_output",
+  "source_file": "sas-programming-2-course-notes/cn-2-directing-data-step-output.sas",
+  "tier": "real_data",
+  "notes": "Three worked examples from the OUTPUT note: implicit-output (only Year=3 survives), explicit OUTPUT (3 rows per input row), and DATA with two named output tables. Switched the input to sashelp.cars / MSRP from sashelp.shoes / Sales to keep the bundle self-contained; the OUTPUT semantics, the DROP/KEEP usage, and the conditional-output pattern are identical to what the note teaches."
+}

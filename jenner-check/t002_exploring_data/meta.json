@@ -1,0 +1,6 @@
+{
+  "bundle": "t002_exploring_data",
+  "source_file": "sas-programming-1-course-notes/9-exploring-data.sas",
+  "tier": "real_data",
+  "notes": "Excerpt covering PROC PRINT, MEANS, UNIVARIATE, and FREQ on sashelp.class and sashelp.cars. The notes use these procs side-by-side to introduce 'understand-your-data' workflow; the bundle preserves the original calls and OBS=10 options."
+}

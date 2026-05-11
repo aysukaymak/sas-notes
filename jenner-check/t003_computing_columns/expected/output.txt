@@ -1,0 +1,28 @@
+
+PROC PRINT: cars_new
+-------------------------------------------------------------------------------
+
+  Obs    MAKE           MODEL   MSRP  INVOICE  PROFIT       SOURCE
+-----  ------  --------------  -----  -------  ------  -----------
+    1  Acura   MDX             36945    33337  $3,608  Non-US Cars
+    2  Acura   RSX Type S 2dr  23820    21761  $2,059  Non-US Cars
+    3  Acura   TSX 4dr         26990    24647  $2,343  Non-US Cars
+    4  Acura   TL 4dr          33195    30299  $2,896  Non-US Cars
+    5  BMW     325Ci 2dr       30795    28245  $2,550  Non-US Cars
+    6  BMW     X5 4.4i         52195    48690  $3,505  Non-US Cars
+    7  Honda   Accord LX 4dr   20140    18361  $1,779  Non-US Cars
+    8  Honda   Civic DX 4dr    13760    12741  $1,019  Non-US Cars
+    9  Toyota  Camry LE 4dr    19560    17558  $2,002  Non-US Cars
+   10  Toyota  Corolla CE 4dr  14085    12787  $1,298  Non-US Cars
+
+-------------------------------------------------------------------------------
+
+                                                  The MEANS Procedure
+
+ Variable                                   N             Mean          Std Dev          Minimum          Maximum
+ --------------------------------------------------------------------------------------------------------------------
+ Manufacturer suggested retail price       10     27148.5000000     11742.0001254     13760.0000000     52195.0000000
+ Invoice price                             10     24842.6000000     10947.3447435     12741.0000000     48690.0000000
+ PROFIT                                    10            $2,306              $859            $1,019            $3,608
+ --------------------------------------------------------------------------------------------------------------------
+

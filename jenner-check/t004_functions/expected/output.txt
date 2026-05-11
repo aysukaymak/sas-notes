@@ -1,0 +1,48 @@
+
+PROC PRINT: cars_new
+-------------------------------------------------------------------------------
+
+  Obs       MAKE           MODEL  MPG_CITY  MPG_HIGHWAY  MPG_MEAN
+-----  ---------  --------------  --------  -----------  --------
+    1  Acura      MDX                   17           23      20.0
+    2  Acura      RSX Type S 2dr        24           31      27.5
+    3  Acura      TSX 4dr               22           29      25.5
+    4  Acura      TL 4dr                20           28      24.0
+    5  BMW        325Ci 2dr             20           29      24.5
+    6  BMW        X5 4.4i               16           22      19.0
+    7  Chevrolet  Cavalier 4dr          26           37      31.5
+    8  Ford       Focus LX 4dr          27           36      31.5
+    9  Honda      Accord LX 4dr         26           34      30.0
+   10  Honda      Civic DX 4dr          32           38      35.0
+
+... 2 more observations (showing 10 of 12)
+
+-------------------------------------------------------------------------------
+
+PROC PRINT: cars_upper
+-------------------------------------------------------------------------------
+
+  Obs       MAKE           MODEL   TYPE
+-----  ---------  --------------  -----
+    1  Acura      MDX             SUV
+    2  Acura      RSX Type S 2dr  SEDAN
+    3  Acura      TSX 4dr         SEDAN
+    4  Acura      TL 4dr          SEDAN
+    5  BMW        325Ci 2dr       SEDAN
+    6  BMW        X5 4.4i         SUV
+    7  Chevrolet  Cavalier 4dr    SEDAN
+    8  Ford       Focus LX 4dr    SEDAN
+    9  Honda      Accord LX 4dr   SEDAN
+   10  Honda      Civic DX 4dr    SEDAN
+
+... 2 more observations (showing 10 of 12)
+
+-------------------------------------------------------------------------------
+
+                                                   The FREQ Procedure
+
+                                          Cumulative    Cumulative
+Vehicle type    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------------
+SEDAN                  10     83.33           10        83.33
+SUV                     2     16.67           12       100.00
